@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Name - portfolio</title>
+    <style>
+        body {
+            font-family: Arial, Sans-Serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color:#333;
+            color:#fff;
+            text-align: center;
+            padding:2rem 0;
+            position:relative;
+        }
+
+        .header-content h1 {
+            font-size: 2.5re;
+        }
+
+        .profile-picture {
+            width: 100px;
+            height: 100px;
+            border-radius: 75%;
+            object-fit: cover;
+            position: absolute;
+            top: 75px;
+            left: 75px;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        } 
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }  
+        
+        .section-content {
+            background-color: #fff;
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .download-button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+        } 
+
+        .dowmload-button:cover {
+            background-color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+        }
+
+        ul{
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+</body>
+    <header>
+        <div class="header-content">
+           <!-- here Add your profile picture -->
+           <img src="profile/68c50ac30605fdb8ce0836aaeaacd48c.jpg" alt="Your profile picture" class="profile-picture">
+           <h1>Atchaya R</h1>
+           <h1>B.Sc Computer Science</h1>
+        </div>
+        </header>
+
+    <nav>
+        <ul>
+            <li><a href="#abot">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>Hello Everyone! This is Atchaya R and i am a Computer Science Student.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="section-content">
+            <h2>B.Sc</h2>
+            <p>Annai Women's College</p>
+        </div>
+    </section>
+
+    <section id ="skills">
+        <div class="section-content">
+            <h2>skills</h2>
+            <ul>
+                <li>Artificial Intelligence</li>
+                <li>Machine Learning</li>
+                <li>Programming</li>
+            </ul>
+        </div>
+    </section>
+
+    
+
+    <section id="resume">
+        <center>
+        <div class+"section-content">
+            <h2>Resume</h2>
+            <a href="resume/document atchu.pdf" download="btn btn2">Download CV</a>
+        </div>
+        </center>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 AtchayaRajarajan</p>
+    </footer>
+
+    <S\<script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventlisdtener('click', function(Q) {
+                e.preventDefault();
+
+                const targetID = this.getattribute('href').substring(1);
+                const targetElement = docuent.getElementById(targetId);
+
+                if (targetElement) {                    
+                    window,scrollTo({
+                        top: targetElement.offsetTop,
+                        behaviour: 'smooth'
+
+                    });
+                }
+            });
+        });    
+    </script>
+</body>
+</html>
